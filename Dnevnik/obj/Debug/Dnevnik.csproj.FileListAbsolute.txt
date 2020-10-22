@@ -1,0 +1,10 @@
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\bin\Debug\Dnevnik.exe.config
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\bin\Debug\Dnevnik.exe
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\bin\Debug\Dnevnik.pdb
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.csprojAssemblyReference.cache
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.Form1.resources
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.Properties.Resources.resources
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.csproj.GenerateResource.cache
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.csproj.CoreCompileInputs.cache
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.exe
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.pdb
