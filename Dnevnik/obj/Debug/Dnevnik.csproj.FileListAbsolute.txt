@@ -8,3 +8,4 @@ C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.csproj.GenerateRes
 C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.csproj.CoreCompileInputs.cache
 C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.exe
 C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.pdb
+C:\Users\JackYellow\Desktop\Dnevnik\Dnevnik\obj\Debug\Dnevnik.INSERT.resources

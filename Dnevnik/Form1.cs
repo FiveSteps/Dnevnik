@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace Dnevnik
 {
@@ -20,9 +21,9 @@ namespace Dnevnik
             string connectionString = @"Data Source=DESKTOP-EE4RPR4\SQLEXPRESS;Initial Catalog=DnevnikDB;Integrated Security=True";
 
             sqlConnection = new SqlConnection(connectionString);
-            sqlConnection.Open();
+            //sqlConnection.Open();
 
-            //await sqlConnection.OpenAsync();
+            await sqlConnection.OpenAsync();
 
             listView1.GridLines = true;
 
@@ -35,7 +36,7 @@ namespace Dnevnik
             listView1.Columns.Add("Zadanie");
             listView1.Columns.Add("Ozenka");
 
-            await LoadStudentsAsync();
+            await LoadDnevnikAsync();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -44,7 +45,7 @@ namespace Dnevnik
                     sqlConnection.Close();
         }
 
-        private async Task LoadStudentsAsync() //SELECT
+        private async Task LoadDnevnikAsync() //SELECT
         {
             SqlDataReader sqlReader = null;
 
@@ -81,5 +82,18 @@ namespace Dnevnik
             }
         }
 
+        private async void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Clear();
+
+            await LoadDnevnikAsync();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            INSERT add = new INSERT(sqlConnection);
+
+            add.Show();
+        }
     }
 }
